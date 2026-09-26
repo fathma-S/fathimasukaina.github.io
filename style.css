@@ -132,7 +132,24 @@ nav a:hover {
     font-size: 18px;
     max-width: 680px;
 }
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
 
+.hero-text {
+    flex: 1;
+}
+
+.profile-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* BUTTONS */
 
