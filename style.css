@@ -127,14 +127,10 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.hero-text > p:not(.small-title) {
-    color: var(--text);
-    font-size: 18px;
-    max-width: 680px;
-}
 .hero {
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 60px;
@@ -142,10 +138,13 @@ nav a:hover {
 
 .hero-text {
     flex: 1;
+    max-width: 720px;
 }
 
 .profile-area {
-    flex: 1;
+    width: 300px;
+    min-width: 300px;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
